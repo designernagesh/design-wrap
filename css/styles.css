@@ -1,0 +1,98 @@
+@charset "utf-8";
+/* CSS Document */
+
+html, body, ul, ol, li, form, fieldset, legend {margin: 0; padding: 0;}
+html, body {height: 100%;}
+body {background: #FFF url(../images/body-bg.jpg) center top no-repeat; font: normal 15px Arial, Helvetica, sans-serif; font-size: 15px;}
+h1, h2, h3, h4, h5, h6, p {margin: 0;}
+h1{text-shadow: 2px 2px 1px #000; font-size:36px; text-transform:uppercase; font-family: 'Archivo Narrow', sans-serif; margin-bottom:20px;}
+h2{text-shadow: 1px 1px 1px #000; font-size:18px; text-transform:uppercase; font-family: 'Archivo Narrow', sans-serif; margin:20px 0px 10px;}
+p {margin-bottom:15px; line-height:20px;}
+a {color:#FFF; text-decoration:none;}
+.clear {clear:both;}
+#wrapper {width:1000px; margin:0 auto; min-height: 100%; height: 100%;}
+
+.left-side {margin-right:30px; width:270px; float:left;}
+.logo {background: url(../images/logo.png) no-repeat top left; width:265px; height:105px; margin:50px 0px;}
+
+/* Left Main Navigation */
+#nav {width:220px; font-family: 'Archivo Narrow', sans-serif;}
+#nav ul li {list-style:none; float:left; width:220px; margin-bottom:20px; background:url(../images/nav-bg.jpg) bottom left no-repeat;}
+#nav ul li a {font-size:30px; display:block; text-transform:uppercase; color:#3c7dc8; font-weight:bold;}
+#nav ul li a:hover {color:#03428b;}
+#nav a.active {color:#03428b;}
+
+.socialize {color:#FFF; margin-top:100px;}
+.socialize p{margin:0px 0px 7px; font-size:18px;color:#03428b;}
+.socialize span{display:block; clear:both; font-size:12px;color:#03428b;}
+.socialize a{width:30px; height:30px; margin:0px 5px 10px 0px; display:block; float:left;}
+.socialize a.twitter{background:url(../images/twitter.png) no-repeat top left;}
+.socialize a.twitter:hover{background:url(../images/twitter_hover.png) no-repeat top left;}
+.socialize a.facebook{background:url(../images/facebook.png) no-repeat top left;}
+.socialize a.facebook:hover{background:url(../images/facebook_hover.png) no-repeat top left;}
+.socialize a.linkedin{background:url(../images/linkedin.png) no-repeat top left;}
+.socialize a.linkedin:hover{background:url(../images/linkedin_hover.png) no-repeat top left;}
+.socialize a.gplus{background:url(../images/gplus.png) no-repeat top left;}
+.socialize a.gplus:hover{background:url(../images/gplus_hover.png) no-repeat top left;}
+
+#content {overflow:hidden; background:#04428b; color:#FFF;}
+.contentbox-wrapper {position:relative; left:0; width:4200px; height:100%;}
+.contentbox {width:600px; padding:50px; height:100%; float:left;}
+
+
+#home ul li {list-style:none; background:#0d56ab; margin-bottom:20px; padding:10px 20px;}
+#home ul li h2 {text-shadow: 2px 2px 1px #000; font-size:30px; text-transform:uppercase; font-family: 'Archivo Narrow', sans-serif; margin-bottom:10px; font-weight:bold; padding:0px 0px 0px 32px; line-height:30px;}
+#home ul li h2.branding {background:url(../images/branding.png) no-repeat left 5px;}
+#home ul li h2.print {background:url(../images/print.png) no-repeat left 6px;}
+#home ul li h2.digital {background:url(../images/digital.png) no-repeat left 6px;}
+#home ul li h2.advt {background:url(../images/advt.png) no-repeat left 7px;}
+#home ul li p {margin:0px 0px 5px;}
+#home ul li a {text-decoration:none; font-weight:bold; display:block; text-align:right;}
+#home ul li a:hover {text-decoration: underline;}
+
+#home .banner, #aboutus .banner, #whatwedo .banner, #services .banner, #showcase .banner, #contactus .banner{ width:600px; height:150px; margin-bottom:20px; background-repeat: no-repeat; background-position: left top;}
+#home .banner{background-image:url(../images/banner-home.jpg);}
+#aboutus .banner{background-image:url(../images/banner-aboutus.jpg);}
+#whatwedo .banner{background-image:url(../images/banner-whatwedo.jpg);}
+#services .banner{background-image:url(../images/banner-services.jpg);}
+#showcase .banner{background-image:url(../images/banner-showcase.jpg);}
+#contactus .banner{background-image:url(../images/banner-contactus.jpg);}
+
+#services {}
+#services ul {float:left; width:300px;}
+#services ul h2{margin:0px 0px 10px;}
+#services ul li{list-style:none;}
+#services ul li ul li{list-style-type:disc; margin-bottom:7px; margin-left:30px;}
+.under_construction{background:url(../images/under_construction.png) no-repeat left top; margin:75px 0px 100px 193px; width:214px; height:220px;}
+/* Tab System */
+/****************** Inner Page Tab System **********************/
+ul.main-tabs li.active1{background:#124784; border-radius:5px;}
+ul.tabs {margin: 0; padding: 0; float: left;	list-style: none;
+	height: 32px; /*--Set height of tabs--*/
+	border-bottom: 1px solid #5681b4; border-left: 1px solid #5681b4; width: 100%;}
+ul.tabs li {float: left; margin: 0;	padding: 0;
+	height: 31px; /*--Subtract 1px from the height of the unordered list--*/
+	line-height: 31px; /*--Vertically aligns the text within the tab--*/
+	border: 1px solid #5681b4;
+	border-left: none;
+	margin-bottom: -1px; /*--Pull the list item down 1px--*/
+	overflow: hidden; position: relative; background: #0d56ab;
+}
+ul.tabs li a {text-decoration: none; display: block; font-weight: bold; padding: 0 20px; border: 1px solid #fff; outline: none;color:#FFF;}
+ul.tabs li a:hover {background:;}
+html ul.tabs li.active {background: #fff; border-bottom: 1px solid #fff; color:#000 !important;}
+html ul.tabs li.active a {color:#000 !important;}
+
+table th{background:#666; color:#FFF; font-weight:normal; height:25px;}
+table td{height:25px; padding:2px;}
+
+.btn{background:#124784; border-radius:3px; height:25px; line-height:25px; border:none; padding:0px 10px; font-weight:bold; font-size:13px;
+color: #FFF; overflow: hidden; cursor:pointer; 
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#61a2e2', endColorstr='#5287bd'); /* for IE */
+background: -webkit-gradient(linear, left top, left bottom, from(#61a2e2), to(#124784)); /* for webkit browsers */
+background: -moz-linear-gradient(top,  #61a2e2,  #124784); /* for firefox 3.6+ */
+border-bottom:1px solid #124784}
+
+/**************************** Tab Content CSS ***********/
+.tab_container {border: 1px solid #5681b4; background:#FFF;	border-top: none; overflow: hidden;	clear: both; float: left; width: 100%;}
+.tab_content {padding: 20px;}

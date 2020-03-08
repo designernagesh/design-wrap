@@ -1,0 +1,313 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>DesignWrap</title>
+<link rel="stylesheet" type="text/css" href="css/styles.css" />
+<link rel="stylesheet" type="text/css" href="css/lightbox.css" />
+<link href='http://fonts.googleapis.com/css?family=Archivo+Narrow:400,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script>
+function goto(id, t){	
+	//animate to the div id.
+	$(".contentbox-wrapper").animate({"left": -($(id).position().left)}, 600);
+	
+	// remove "active" class from all links inside #nav
+    $('#nav a').removeClass('active');
+	
+	// add active class to the current link
+    $(t).addClass('active');	
+}
+</script>
+
+</head>
+<body>
+<div id="wrapper">
+<div class="left-side">
+<div class="logo"></div>
+<div id="nav">
+    <ul>
+      <li><a class="active" href="#" onClick="goto('#home', this); return false">Home</a></li>
+      <li><a href="#" onClick="goto('#aboutus', this); return false">About Us</a></li>
+      <li><a href="#" onClick="goto('#whatwedo', this); return false">What We Do</a></li>
+      <li><a href="#" onClick="goto('#services', this); return false">Services</a></li>
+      <li><a href="#" onClick="goto('#showcase', this); return false">Showcase</a></li>
+      <li><a href="#" onClick="goto('#contactus', this); return false">Contact Us</a></li>
+    </ul>
+  </div>
+  <div class="clear"></div>
+ <div class="socialize">
+ <p>Connect with us!</p>
+ <a href="#" class="twitter">&nbsp;</a>
+ <a href="#" class="facebook">&nbsp;</a>
+ <a href="#" class="gplus">&nbsp;</a>
+ <a href="#" class="linkedin">&nbsp;</a>
+ <span>&copy;designwrap.in All rights reserved.</span>
+ </div> 
+</div>
+  <div id="content">
+    <div class="contentbox-wrapper">
+    <!-- Home Content Starts -->
+    <div id="home" class="contentbox">
+    <h1>Home</h1>
+    <div class="banner"></div>
+    <p>The trend of designing may have started back in some ancient time, but the oh-so-fantastic-look of advertisement has found its charm with today's young and creative designers. A design that suits everyone's need, you can never go wrong with the classic designs and themes of <strong>designwrap</strong>. You can leave your publicity issue on our leaf and let us create your style file with creativity and ideas that add stylish touch to your products's/company's look.</p>
+<p><strong>designwrap</strong> services ranges from website development, print media marketing, logo designing, online marketing that includes social media and search marketing. We serve all the media solution from creative designing to marketing.</p>
+<ul>
+	<li><h2 class="branding">Branding</h2><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor  ut labore et incididunt dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p><a href="#">more</a></li>
+    <li><h2 class="print">Print</h2><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor ut labore incididunt et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p><a href="#">more</a></li>
+    <li><h2 class="digital">Digital</h2><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor ut labore et incididunt dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p><a href="#">more</a></li>
+    <li><h2 class="advt">Advertisement</h2><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor ut labore incididunt et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p><a href="#">more</a></li>
+</ul>
+    </div>
+    <!-- Home Content Ends -->
+    
+    <!-- About Us Content Starts -->
+    <div id="aboutus" class="contentbox">
+    <h1>About Us</h1>
+    <div class="banner"></div>
+        <p>Our young creativity and updated market approach distinguishes us from others in the industry. Our unique features comprises of:</p>
+        
+        <h2>Creative approach to our designs:</h2>
+        <p>To achieve classic standards in each of our designs supplies, we continually practice and create to achive the best before handling to the clients. Prior to handling to the client, every design is created under the creative eyes of quality designers of our team.</p>
+        
+        <h2>Latest technology support:</h2>
+        <p>With latest software technology and our detailed study of products, we endeavor to meet both generic and custom design requirements within the stated time frame. This endows us to gain our client's trust with their support and faith in us.</p>
+        
+        <h2>Prompt & personalized services:</h2>
+        <p>designwrap is always one step forward to provide complete quality and creative solutions for business advertisement, we prefer to meet the need of our clients and understand in the usage of the product and its right application. </p>
+        
+        <h2>Everythig under one roof:</h2>
+        <p>Including all the advertising solutions, we provide Branding, Interactive, Web and Print solutions. </p>
+    </div>
+    <!-- About Us Content Ends -->
+    
+    <!-- What We Do Content Starts -->
+    <div id="whatwedo" class="contentbox">
+    <h1>What We Do</h1>
+    <div class="banner"></div>
+    <div class="under_construction"></div>
+    </div>
+    <!-- What We Do Content Ends -->
+    
+    <!-- Services Content Starts -->
+    <div id="services" class="contentbox">
+    <h1>Services</h1>
+    <div class="banner"></div>
+        <ul>
+        	<li>
+            <h2>Branding & Design</h2>
+        	<ul>
+                <li>Name Generation</li>
+                <li>Corporate Identity</li>
+                <li>Brand Manuals</li>
+                <li>Brochures, Reports & Magazines</li>
+                <li>Packaging</li>
+                <li>Store Environments</li>
+                <li>Exhibitions</li>
+                <li>Experiential</li>
+                </ul></li>
+            <li><h2>Advertising</h2>
+            <ul>
+                <li>Press </li>
+                <li>Direct</li>
+                <li>Outdoor</li>
+                <li>P-O-S</li>
+                <li>TV Commercials</li>
+                <li>Non-broadcast Commercials</li>
+                <li>Virals</li>
+                <li>Radio</li>
+            </ul></li>
+            </li>
+        </ul>
+        
+        <ul>
+        	<li>
+        <h2>Print</h2>
+        <ul><li>Business Cards</li>
+        <li>Letterheads</li>
+        <li>Leaflets</li>
+        <li>Folder Leaflets</li>
+        <li>Posters</li>
+        <li>Brochures</li>
+        <li>Greeting Cards</li>
+        <li>CD Covers, etc.</li></ul></li>
+        
+        <li><h2>Digital</h2>
+        <ul><li>Motion Graphics</li>
+        <li>Animation</li>
+        <li>Websites</li>
+        <li>Campaign Micro-sites</li>
+        <li>Banners, Buttons & Pop-ups</li>
+        <li>E-shots</li>
+        <li>Mobile Apps</li></ul>
+		</li>
+        </ul>
+    </div>
+    <!-- Services Content Ends -->
+    
+    <!-- Showcase Content Starts -->
+    <div id="showcase" class="contentbox">
+    <h1>Showcase</h1>
+    <div class="banner"></div>
+    <div id="main-tab1" class="main-tab-content">
+        <ul class="tabs">
+          <li><a href="#branding">Branding & Design</a></li>
+          <li><a href="#print">Print</a></li>
+          <li><a href="#advt">Advertisement</a></li>
+          <li><a href="#digital">Digital</a></li>
+        </ul>
+        <div class="tab_container">
+          <div id="branding" class="tab_content">
+            
+            <div class="imageRow">
+  	<div class="set">
+  	  <div class="single first">
+  		  <a href="images/print/bakers_bay.jpg" rel="lightbox[plants]" title=""><img src="images/print/thumb_bakers_bay.jpg" alt="" /></a>
+  		</div>
+      <div class="single">
+  		  <a href="images/print/blitz.jpg" rel="lightbox[plants]" title=""><img src="images/print/thumb_blitz.jpg" alt="" /></a>
+      </div>
+      <div class="single">
+  		  <a href="images/print/brand_radicals.jpg" rel="lightbox[plants]" title=""><img src="images/print/thumb_brand_radicals.jpg" alt="" /></a>
+      </div>
+      <div class="single">
+  		  <a href="images/print/CMH.jpg" rel="lightbox[plants]" title=""><img src="images/print/thumb_CMH.jpg" alt="" /></a>
+      </div>
+      <div class="single">
+  		  <a href="images/print/cool_treats.jpg" rel="lightbox[plants]" title=""><img src="images/print/thumb_cool_treats.jpg" alt="" /></a>
+      </div>
+      <div class="single">
+  		  <a href="images/print/design_wrap.jpg" rel="lightbox[plants]" title=""><img src="images/print/thumb_design_wrap.jpg" alt="" /></a>
+      </div>
+      <div class="single">
+  		  <a href="images/print/elastothane.jpg" rel="lightbox[plants]" title=""><img src="images/print/thumb_elastothane.jpg" alt="" /></a>
+      </div>
+      <div class="single">
+  		  <a href="images/print/roti_shoti.jpg" rel="lightbox[plants]" title=""><img src="images/print/thumb_roti_shoti.jpg" alt="" /></a>
+      </div>
+      <div class="single">
+  		  <a href="images/print/it_plexus.jpg" rel="lightbox[plants]" title=""><img src="images/print/thumb_it_plexus.jpg" alt="" /></a>
+      </div>
+      <div class="single">
+  		  <a href="images/print/ddh.jpg" rel="lightbox[plants]" title=""><img src="images/print/thumb_ddh.jpg" alt="" /></a>
+      </div>
+      <div class="single">
+  		  <a href="images/print/besan_gold.jpg" rel="lightbox[plants]" title=""><img src="images/print/thumb_besan_gold.jpg" alt="" /></a>
+      </div>
+      <div class="single">
+  		  <a href="images/print/metro_park.jpg" rel="lightbox[plants]" title=""><img src="images/print/thumb_metro_park.jpg" alt="" /></a>
+      </div>
+      <div class="single">
+  		  <a href="images/print/pacetech.jpg" rel="lightbox[plants]" title=""><img src="images/print/thumb_pacetech.jpg" alt="" /></a>
+      </div>
+      <div class="single">
+  		  <a href="images/print/prenex_systems.jpg" rel="lightbox[plants]" title=""><img src="images/print/thumb_prenex_systems.jpg" alt="" /></a>
+      </div>
+      <div class="single">
+  		  <a href="images/print/sri_balaji.jpg" rel="lightbox[plants]" title=""><img src="images/print/thumb_sri_balaji.jpg" alt="" /></a>
+      </div>
+      <div class="single">
+  		  <a href="images/print/srikaar.jpg" rel="lightbox[plants]" title=""><img src="images/print/thumb_srikaar.jpg" alt="" /></a>
+      </div>
+      <div class="single">
+  		  <a href="images/print/vinayaka_daily_needs.jpg" rel="lightbox[plants]" title=""><img src="images/print/thumb_vinayaka_daily_needs.jpg" alt="" /></a>
+      </div>
+      <div class="single">
+  		  <a href="images/print/visa_vison.jpg" rel="lightbox[plants]" title=""><img src="images/print/thumb_visa_vison.jpg" alt="" /></a>
+      </div>
+      <div class="single last">
+  		  <a href="images/print/sahasra.jpg" rel="lightbox[plants]" title=""><img src="images/print/thumb_sahasra.jpg" alt="" /></a>
+      </div>
+  	</div>
+  </div>
+            
+            
+          </div>
+          <div id="print" class="tab_content">
+           
+            <div class="under_construction"></div>
+            
+          </div>
+          <div id="advt" class="tab_content">
+            <div class="under_construction"></div>
+          </div>
+          <div id="digital" class="tab_content">
+            <div class="under_construction"></div>
+          </div>
+        </div>
+      </div>
+    
+        
+    </div>
+    <!-- Showcase Content Ends -->
+    
+    <!-- Contact Us Content Starts -->
+    <div id="contactus" class="contentbox">
+        <h1>Contact Us</h1><br />
+        <div class="banner"></div>
+        <p><strong>Shesu:</strong></p><h3>08688844888</h3><br /><br />
+		<p><strong>Praveen:</strong></p><h3>09247738782</h3>	
+
+      </div>
+    <!-- Contact Us Content Ends -->
+    </div>
+  </div>
+  
+</div>
+<script src="js/jquery-1.7.2.min.js"></script>
+<script src="js/lightbox.js"></script>
+
+
+<script>
+// Tab System Content Tabs
+$(document).ready(function() {
+	//When page loads...
+	$(".tab_content").hide(); //Hide all content
+	$("ul.tabs li:first").addClass("active").show(); //Activate first tab
+	
+	$("div#main-tab1 ul.tabs li:first, div#main-tab2 ul.tabs li:first, div#main-tab3 ul.tabs li:first, div#main-tab3 ul.tabs li:first, div#main-tab4 ul.tabs li:first, div#main-tab5 ul.tabs li:first").addClass("active").show(); //Activate first tab
+	$("div#tab1, div#tab4, div#tab6, div#tab9, div#tab11").css('display','block'); //Activate first tab
+	
+	$(".tab_content:first").show(); //Show first tab content
+
+	//On Click Event
+	$("ul.tabs li").click(function() {		
+		$("ul.tabs li").removeClass("active"); //Remove any "active" class
+		$(this).addClass("active"); //Add "active" class to selected tab
+		$(".tab_content").hide(); //Hide all tab content
+
+		var activeTab = $(this).find("a").attr("href"); //Find the href attribute value to identify the active tab + content
+		$(activeTab).fadeIn(); //Fade in the active ID content
+		return false;
+	});
+
+});
+
+
+
+// Tab System for Right Collapsible Panel
+$(document).ready(function() {
+	//When page loads...
+	$("#main-tab1, #main-tab2, #main-tab3, #main-tab4, #main-tab5").hide(); //Hide all content
+	
+	$("#main-tab1").addClass("active").show(); //Activate first tab
+	
+	$("ul.main-tabs li:first").addClass("active1"); 
+
+	//On Click Event
+	$("ul.main-tabs li").click(function() {
+		$("ul.main-tabs li").removeClass("active1"); //Remove any "active" class
+		$(this).addClass("active1"); //Add "active" class to selected tab
+		$(".main-tab-content").hide(); //Hide all tab content
+
+		var activeTab = $(this).find("a").attr("href"); //Find the href attribute value to identify the active tab + content
+		$(activeTab).fadeIn(); //Fade in the active ID content
+		return false;
+	});
+
+});
+
+</script>
+</body>
+</html>
